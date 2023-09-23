@@ -28,9 +28,9 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     docker compose up -d
 ### Setp : RUN exec CMD
     docker compose exec app(app-is-container-name) bash 
-### Setp 4: install composer depedencies
+### Setp 4: install composer dependencies
     composer install
 ### Setp 5: run migration
     php artisan migrate
-### Verifying App is Run
+### Verifying App is Running
     http://localhost:8000

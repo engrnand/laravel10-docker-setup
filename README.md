@@ -24,13 +24,13 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ## HOW TO SETUP PROJECT
 
 ### Step 1: Ensure your docker is running
-### Step 2: Open terminal on Project Directory and RUN COMMAND
+### Step 2: Open terminal on project directory and follow the setps
     docker compose up -d
 ### Setp : RUN exec CMD
     docker compose exec app(app-is-container-name) bash 
 ### Setp 4: install composer dependencies
     composer install
-### Setp 5: run migration
+### Setp 5: run database migrations
     php artisan migrate
 ### Verifying App is Running
     http://localhost:8000

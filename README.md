@@ -30,7 +30,14 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     docker compose exec app(app-is-container-name) bash 
 ### Setp 4: install composer dependencies
     composer install
-### Setp 5: run database migrations
+### Setp 5: Setup database env configrations
+    DB_CONNECTION=mysql
+    DB_HOST=sqldb
+    DB_PORT=3306
+    DB_DATABASE=laravel_web
+    DB_USERNAME=root
+    DB_PASSWORD=root
+### Setp 6: Run database migrations
     php artisan migrate
 ### Verifying App is Running
     http://localhost:8000

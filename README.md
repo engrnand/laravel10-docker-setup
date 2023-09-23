@@ -32,4 +32,5 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     composer install
 ### Setp 5: run migration
     php artisan migrate
-
+### Verifying App is Run
+    http://localhost:8000
